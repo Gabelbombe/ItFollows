@@ -14,10 +14,17 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "randomuser/generator"  : "dev-master"
+        "randomuser/generator"  : "dev-master",
+        "nelmio/alice": "~2.0@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "4.3.5",
         "mockery/mockery": "0.8.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Model":    "src/",
+            "Helper":   "src/"
+        }
     }
 }

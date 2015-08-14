@@ -28,8 +28,7 @@ Namespace Helper
                 : session_id();
 
             $this->filter = New \Model\Filters();
-
-            $this->users = New \RandomUser\Generator();
+            $this->users  = New \RandomUser\Generator();
 
         }
 
