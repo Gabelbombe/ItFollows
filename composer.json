@@ -1,5 +1,23 @@
 {
+    "name": "ehime/itfollows",
+    "description": "Github follower script",
+    "keywords":    ["greyhat", "github", "api"],
+    "version":     "1.0.0",
+    "type":        "library",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name": "Jd Daniel",
+            "email": "dodomeki@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
+        "php": ">=5.4.0",
         "randomuser/generator"  : "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.5",
+        "mockery/mockery": "0.8.*"
     }
 }
