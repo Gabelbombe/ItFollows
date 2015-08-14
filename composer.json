@@ -1,0 +1,5 @@
+{
+    "require": {
+        "randomuser/generator"  : "dev-master"
+    }
+}
